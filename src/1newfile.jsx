@@ -24,6 +24,10 @@ import Cssmod from './24cssModules'
 import Stcom from './25styled components'
 import UseRef from './27useRef'
 import Uncon from './28Uncontrolled'
+import Pas from './29passFunction in com'
+import Forw from './30forwardRef'
+import Form from './31useFormstatusHook'
+import Trans from './32useTransitionHook'
 
 function Nfile(){
     return(
@@ -62,7 +66,11 @@ function Nfile(){
             {/* <Cssmod/> */}
             {/* <Stcom/> */}
             {/* <UseRef/> */}
-            <Uncon/>
+            {/* <Uncon/> */}
+            {/* <Pas/> */}
+            {/* <Forw/> */}
+            {/* <Form/> */}
+            <Trans/>
         </div>
     )
 }
