@@ -38,6 +38,7 @@ import UseId from './39useIdhook'
 import Frag from './40fragment'
 import ConAPI from './41contextAPI'
 import Custom from './42customHooks'
+import Rou from './43ReactRouter'
 
 function Nfile(){
     return(
@@ -90,7 +91,8 @@ function Nfile(){
             {/* <UseId/> */}
             {/* <Frag/> */}
             {/* <ConAPI/> */}
-            <Custom/>
+            {/* <Custom/> */}
+            <Rou/>
         </div>
     )
 }
