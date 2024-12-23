@@ -1,5 +1,5 @@
 import { useState } from "react"
-import User, { Student, User2,User3, User4,User5} from "./8props2"
+import User, { Student, User2,User3, User4,User5} from "./08props2"
 
 function Pro(){
     let username="joker"
