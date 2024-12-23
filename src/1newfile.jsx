@@ -28,6 +28,16 @@ import Pas from './29passFunction in com'
 import Forw from './30forwardRef'
 import Form from './31useFormstatusHook'
 import Trans from './32useTransitionHook'
+import Pure from './33PureCompo'
+import Derived from './34DerivedState'
+import Lift from './35LiftingStateUp'
+import UpOb from './36UpObjexts'
+import Acti from './37useActionstate'
+import UpArr from './38UpdatingArray'
+import UseId from './39useIdhook'
+import Frag from './40fragment'
+import ConAPI from './41contextAPI'
+import Custom from './42customHooks'
 
 function Nfile(){
     return(
@@ -70,7 +80,17 @@ function Nfile(){
             {/* <Pas/> */}
             {/* <Forw/> */}
             {/* <Form/> */}
-            <Trans/>
+            {/* <Trans/> */}
+            {/* <Pure/> */}
+            {/* <Derived/> */}
+            {/* <Lift/> */}
+            {/* <UpOb/> */}
+            {/* <Acti/> */}
+            {/* <UpArr/> */}
+            {/* <UseId/> */}
+            {/* <Frag/> */}
+            {/* <ConAPI/> */}
+            <Custom/>
         </div>
     )
 }
