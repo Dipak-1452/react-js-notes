@@ -39,6 +39,15 @@ import Frag from './40fragment'
 import ConAPI from './41contextAPI'
 import Custom from './42customHooks'
 import Rou from './43ReactRouter'
+import Fet from './47fetch'
+import Integrate from './48integrate-json'
+import RoutesandPages from './49routes-and-pages'
+import Validation from './50validation'
+import UseActionState from './51useActionState'
+import UseReducer from './52useReducerHook'
+import LazyLoading from './53LazyLoading'
+import UseAPI from './54useAPI'
+import UseOptimistic from './55useOptimisticHook'
 
 function Nfile(){
     return(
@@ -92,7 +101,16 @@ function Nfile(){
             {/* <Frag/> */}
             {/* <ConAPI/> */}
             {/* <Custom/> */}
-            <Rou/>
+            {/* <Rou/> */}
+            {/* <Fet/> */}
+            {/* <Integrate/> */}
+            {/* <RoutesandPages/> */}
+            {/* <Validation/> */}
+            {/* <UseActionState/> */}
+            {/* <UseReducer/> */}
+            {/* <LazyLoading/> */}
+            {/* <UseAPI/> */}
+            <UseOptimistic/>
         </div>
     )
 }
